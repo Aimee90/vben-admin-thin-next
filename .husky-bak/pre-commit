@@ -5,6 +5,10 @@
 [ -n "$CI" ] && exit 0
 
 # Format and submit code according to lintstagedrc.js configuration
+<<<<<<< HEAD:.husky-bak/pre-commit
  npm run lint:lint-staged
 
  npm run lint:pretty
+=======
+npm run lint:lint-staged
+>>>>>>> 07c2567751c711541a4ff24af00f2cd018c18eab:.husky/pre-commit
